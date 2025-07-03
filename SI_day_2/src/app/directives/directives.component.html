@@ -1,0 +1,23 @@
+<!-- <div *ngIf="isAdmin">
+    Logged in user is an admin
+</div>
+<div *ngIf="!isAdmin">
+    Logged in user is not an admin
+</div> -->
+
+@if (isAdmin) {
+    Logged in user is an admin
+} 
+@else {
+    Logged in user is not an admin
+}
+
+<ul>
+    <li *ngFor="let name of names">{{ name }}</li>
+</ul>
+
+<ul>
+    @for (name of names; track name) {
+        <li>{{ name }}</li>
+    }
+</ul>
