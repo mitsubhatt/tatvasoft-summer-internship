@@ -12,21 +12,25 @@ namespace Mission.Api.Controllers
     public class LoginController : Controller
     {
         private readonly ILoginService _loginService;
-        public LoginController(ILoginService loginService)
+        private readonly IWebHostEnvironment _hostEnvironment;
+        public LoginController(ILoginService loginService, IWebHostEnvironment hostEnvironment)
         {
             _loginService = loginService;
+            _hostEnvironment = hostEnvironment;
         }
         [HttpPost]
-        [Route("Login")]
+        [Route("LoginUser")]
         public ResponseResult Login(LoginUserRequestModel model)
         {
             ResponseResult result = new ResponseResult();
             try
             {
-                result = _loginService.login(model);
+                result.Data = _loginService.login(model);
+                result.Result = ResponseStatus.Success;
             }
             catch (Exception ex)
             {
+                result.Result = ResponseStatus.Error;
                 result.Message = ex.Message;
             }
             return result;
@@ -36,19 +40,56 @@ namespace Mission.Api.Controllers
             //}
             //return Ok("login successfully");
         }
-        [HttpGet]
-        [Route("Registeration")]
-        [Authorize(Roles ="admin")]
-        public string registeration()
+
+        [HttpPost]
+        [Route("Register")]
+        public IActionResult Register(RegisterUserModel model)
         {
-            return "registeration api";
+            try
+            {
+                var res = _loginService.Register(model);
+                return Ok(new ResponseResult() { Data = "User added!", Result = ResponseStatus.Success, Message = "" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ResponseResult() { Data = ex, Result = ResponseStatus.Success, Message = "Failed to add user" });
+            }
         }
+
         [HttpGet]
-        [Route("getUser")]
-        [Authorize(Roles = "user")]
-        public string getUser()
+        [Route("LoginUserDetailById/{id}")]
+        public ResponseResult LoginUserDetailById(int id)
         {
-            return "getUser api";
+            ResponseResult result = new ResponseResult();
+            try
+            {
+                result.Data = _loginService.loginUserDetailsById(id);
+                result.Result = ResponseStatus.Success;
+            }
+            catch (Exception ex)
+            {
+                result.Data = null;
+                result.Result = ResponseStatus.Error;
+            }
+            return result;
+        }
+
+        [HttpPost]
+        [Route("UpdateUser")]
+        public ResponseResult UpdateUser(UserDetails model)
+        {
+            ResponseResult result = new ResponseResult();
+            try
+            {
+                result.Data = _loginService.updateUser(model, _hostEnvironment.WebRootPath);
+                result.Result = ResponseStatus.Success;
+            }
+            catch (Exception ex)
+            {
+                result.Data = null;
+                result.Result = ResponseStatus.Error;
+            }
+            return result;
         }
     }
 }

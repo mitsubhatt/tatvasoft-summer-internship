@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -11,6 +11,8 @@ using Mission.Services.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+//builder.Services.AddCors();
+
 
 // Add services to the container.
 builder.Services.AddDbContext<MissionDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -53,8 +55,19 @@ builder.Services.AddSwaggerGen(options =>
         }
     });
 });
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("MyPolicy", builder =>
+    {
+        builder.AllowAnyOrigin()
+        .AllowAnyMethod()
+        .AllowAnyHeader();
+    });
+});
 builder.Services.AddScoped<ILoginRepository, LoginRepository>();
+builder.Services.AddScoped<IAdminUserRepository, AdminUserRepository>();
 builder.Services.AddScoped<ILoginService, LoginService>();
+builder.Services.AddScoped<IAdminUserService, AdminUserService>();
 builder.Services.AddScoped<JwtService, JwtService>();
 
 builder.Services.AddControllers();
@@ -72,6 +85,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseRouting();
+
+app.UseCors("MyPolicy");
 
 app.UseAuthorization();
 

@@ -24,7 +24,7 @@ namespace Mission.Services.Services
         {
             var userObj =  this._loginRepository.login(model);
             ResponseResult result = new ResponseResult();
-            if (userObj.Message == "Login Successful")
+            if (userObj.Message == "Login Successfully")
             {
                 result.Message = userObj.Message;
                 result.Result = ResponseStatus.Success;
@@ -36,6 +36,19 @@ namespace Mission.Services.Services
                 result.Result = ResponseStatus.Error;
             }
             return result;
+        }
+
+        public string Register(RegisterUserModel model)
+        {
+            return _loginRepository.Register(model);
+        }
+        public UserDetails loginUserDetailsById(int id)
+        {
+            return _loginRepository.LoginUserDetailsById(id);
+        }
+        public string updateUser(UserDetails model, string webhostpath)
+        {
+            return _loginRepository.UpdateUser(model, webhostpath);
         }
     }
 }

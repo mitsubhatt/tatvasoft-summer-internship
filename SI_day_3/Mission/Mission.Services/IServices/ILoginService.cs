@@ -11,5 +11,8 @@ namespace Mission.Services.IServices
     public interface ILoginService
     {
         ResponseResult login(LoginUserRequestModel model);
+        string Register(RegisterUserModel model);
+        UserDetails loginUserDetailsById(int id);
+        string updateUser(UserDetails model, string webhostpath);
     }
 }

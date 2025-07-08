@@ -11,5 +11,9 @@ namespace Mission.Repositories.IRepositories
     public interface ILoginRepository
     {
         LoginUserResponseModel login(LoginUserRequestModel model);
+        public string Register(RegisterUserModel Model);
+        UserDetails LoginUserDetailsById(int id);
+
+        string UpdateUser(UserDetails model, string webRootPath);
     }
 }

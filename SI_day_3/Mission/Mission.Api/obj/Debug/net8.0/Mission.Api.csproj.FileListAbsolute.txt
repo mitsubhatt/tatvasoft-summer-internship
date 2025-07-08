@@ -143,6 +143,7 @@ C:\Users\Hp\Documents\sem 7\tatvasoft SI\Mission\Mission.Api\obj\Debug\net8.0\Mi
 C:\Users\Hp\Documents\sem 7\tatvasoft SI\Mission\Mission.Api\obj\Debug\net8.0\ref\Mission.Api.dll
 C:\Users\Hp\Documents\sem 7\tatvasoft SI\tatvasoft-summer-internship\SI_day_3\Mission\Mission.Api\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Hp\Documents\sem 7\tatvasoft SI\tatvasoft-summer-internship\SI_day_3\Mission\Mission.Api\bin\Debug\net8.0\appsettings.json
+C:\Users\Hp\Documents\sem 7\tatvasoft SI\tatvasoft-summer-internship\SI_day_3\Mission\Mission.Api\bin\Debug\net8.0\appsettings.Template.json
 C:\Users\Hp\Documents\sem 7\tatvasoft SI\tatvasoft-summer-internship\SI_day_3\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.staticwebassets.endpoints.json
 C:\Users\Hp\Documents\sem 7\tatvasoft SI\tatvasoft-summer-internship\SI_day_3\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.exe
 C:\Users\Hp\Documents\sem 7\tatvasoft SI\tatvasoft-summer-internship\SI_day_3\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.deps.json
@@ -293,3 +294,4 @@ C:\Users\Hp\Documents\sem 7\tatvasoft SI\tatvasoft-summer-internship\SI_day_3\Mi
 C:\Users\Hp\Documents\sem 7\tatvasoft SI\tatvasoft-summer-internship\SI_day_3\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.pdb
 C:\Users\Hp\Documents\sem 7\tatvasoft SI\tatvasoft-summer-internship\SI_day_3\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.genruntimeconfig.cache
 C:\Users\Hp\Documents\sem 7\tatvasoft SI\tatvasoft-summer-internship\SI_day_3\Mission\Mission.Api\obj\Debug\net8.0\ref\Mission.Api.dll
+C:\Users\Hp\Documents\sem 7\tatvasoft SI\tatvasoft-summer-internship\SI_day_3\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.staticwebassets.runtime.json

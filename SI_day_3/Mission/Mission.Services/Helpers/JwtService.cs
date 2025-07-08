@@ -27,6 +27,7 @@ namespace Mission.Services.Helpers
 new Claim(ClaimTypes.Name, name),
 new Claim(ClaimTypes.Email, email),
 new Claim(ClaimTypes.Role, role),
+new Claim("userType", role)
             };
 
             var token = new JwtSecurityToken(
