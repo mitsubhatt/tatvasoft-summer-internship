@@ -1,0 +1,16 @@
+# Ignore all this garbage
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.pdb
+*.dll
+*.exe
+*.log
+*.cache
+*.db
+*.sourcelink.json
+
+# Ignore the file with sensitive info
+Mission.Api/appsettings.json

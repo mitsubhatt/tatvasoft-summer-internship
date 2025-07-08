@@ -1,5 +1,7 @@
 ﻿using Mission.Entities.Entities;
+using Mission.Entities.Models;
 using Mission.Repositories.IRepositories;
+using Mission.Services.Helpers;
 using Mission.Services.IServices;
 using System;
 using System.Collections.Generic;
@@ -12,13 +14,28 @@ namespace Mission.Services.Services
     public class LoginService : ILoginService
     {
         private readonly ILoginRepository _loginRepository;
-        public LoginService(ILoginRepository loginRepository)
+        private readonly JwtService _jwtService;
+        public LoginService(ILoginRepository loginRepository, JwtService jwtSerive)
         {
             _loginRepository = loginRepository;
+            _jwtService = jwtSerive;
         }
-        public User login(string  username, string password)
+        public ResponseResult login(LoginUserRequestModel model)
         {
-            return this._loginRepository.login(username, password);
+            var userObj =  this._loginRepository.login(model);
+            ResponseResult result = new ResponseResult();
+            if (userObj.Message == "Login Successful")
+            {
+                result.Message = userObj.Message;
+                result.Result = ResponseStatus.Success;
+                result.Data = _jwtService.GetToken(userObj.FirstName, userObj.EmailAddress, userObj.UserType);
+            }
+            else
+            {
+                result.Message = userObj.Message;
+                result.Result = ResponseStatus.Error;
+            }
+            return result;
         }
     }
 }

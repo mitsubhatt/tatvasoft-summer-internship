@@ -1,4 +1,5 @@
 ﻿using Mission.Entities.Entities;
+using Mission.Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace Mission.Services.IServices
 {
     public interface ILoginService
     {
-        User login(string username, string password);
+        ResponseResult login(LoginUserRequestModel model);
     }
 }

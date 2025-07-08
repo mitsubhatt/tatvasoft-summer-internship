@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Mission.Entities.Models;
 using Mission.Services.IServices;
 using System.ComponentModel.DataAnnotations;
 
@@ -16,13 +18,37 @@ namespace Mission.Api.Controllers
         }
         [HttpPost]
         [Route("Login")]
-        public IActionResult Login(string EmailAddress, string Password)
+        public ResponseResult Login(LoginUserRequestModel model)
         {
-            var user = _loginService.login(EmailAddress, Password);
-            if (user == null) {
-                return NotFound("please check your email and password");
+            ResponseResult result = new ResponseResult();
+            try
+            {
+                result = _loginService.login(model);
             }
-            return Ok("login successfully");
+            catch (Exception ex)
+            {
+                result.Message = ex.Message;
+            }
+            return result;
+
+            //if (user == null) {
+            //    return NotFound("please check your email and password");
+            //}
+            //return Ok("login successfully");
+        }
+        [HttpGet]
+        [Route("Registeration")]
+        [Authorize(Roles ="admin")]
+        public string registeration()
+        {
+            return "registeration api";
+        }
+        [HttpGet]
+        [Route("getUser")]
+        [Authorize(Roles = "user")]
+        public string getUser()
+        {
+            return "getUser api";
         }
     }
 }

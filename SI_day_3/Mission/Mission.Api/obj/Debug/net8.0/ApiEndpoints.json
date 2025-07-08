@@ -1,6 +1,26 @@
 [
   {
     "ContainingType": "Mission.Api.Controllers.LoginController",
+    "Method": "getUser",
+    "RelativePath": "api/Login/getUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mission.Api.Controllers.LoginController",
     "Method": "Login",
     "RelativePath": "api/Login/Login",
     "HttpMethod": "POST",
@@ -8,17 +28,42 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "EmailAddress",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Password",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "model",
+        "Type": "Mission.Entities.Models.LoginUserRequestModel",
+        "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "Mission.Entities.Models.ResponseResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mission.Api.Controllers.LoginController",
+    "Method": "registeration",
+    "RelativePath": "api/Login/Registeration",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "Mission.Api.Controllers.WeatherForecastController",
