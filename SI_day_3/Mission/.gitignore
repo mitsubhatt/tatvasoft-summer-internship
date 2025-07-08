@@ -14,3 +14,5 @@ obj/
 
 # Ignore the file with sensitive info
 Mission.Api/appsettings.json
+Mission.Api/appsettings.Development.json
+
