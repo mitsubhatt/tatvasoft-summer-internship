@@ -68,6 +68,8 @@ builder.Services.AddScoped<ILoginRepository, LoginRepository>();
 builder.Services.AddScoped<IAdminUserRepository, AdminUserRepository>();
 builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<IAdminUserService, AdminUserService>();
+builder.Services.AddScoped<IMissionThemeRepository, MissionThemeRepository>();
+builder.Services.AddScoped<IMissionThemeService, MissionThemeService>();
 builder.Services.AddScoped<JwtService, JwtService>();
 
 builder.Services.AddControllers();

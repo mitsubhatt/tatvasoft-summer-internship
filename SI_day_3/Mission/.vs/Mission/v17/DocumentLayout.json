@@ -3,16 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1568144-A767-4AF4-ABBB-43A34317A866}|Mission.Api\\Mission.Api.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1568144-A767-4AF4-ABBB-43A34317A866}|Mission.Api\\Mission.Api.csproj|solutionrelative:mission.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1568144-A767-4AF4-ABBB-43A34317A866}|Mission.Api\\Mission.Api.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.api\\controllers\\missionthemecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1568144-A767-4AF4-ABBB-43A34317A866}|Mission.Api\\Mission.Api.csproj|solutionrelative:mission.api\\controllers\\missionthemecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.services\\iservices\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|solutionrelative:mission.services\\iservices\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.services\\iservices\\imissionthemeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|solutionrelative:mission.services\\iservices\\imissionthemeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.services\\services\\missionthemeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|solutionrelative:mission.services\\services\\missionthemeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B8F97A-5684-4708-95CB-BEED6E69E5E2}|Mission.Repositories\\Mission.Repositories.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.repositories\\repositories\\missionthemerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B8F97A-5684-4708-95CB-BEED6E69E5E2}|Mission.Repositories\\Mission.Repositories.csproj|solutionrelative:mission.repositories\\repositories\\missionthemerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B8F97A-5684-4708-95CB-BEED6E69E5E2}|Mission.Repositories\\Mission.Repositories.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.repositories\\irepositories\\imissionthemerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B8F97A-5684-4708-95CB-BEED6E69E5E2}|Mission.Repositories\\Mission.Repositories.csproj|solutionrelative:mission.repositories\\irepositories\\imissionthemerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB51D576-7B7A-451E-BE18-6512D3587984}|Mission.Entities\\Mission.Entities.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.entities\\entities\\missiontheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB51D576-7B7A-451E-BE18-6512D3587984}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\entities\\missiontheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB51D576-7B7A-451E-BE18-6512D3587984}|Mission.Entities\\Mission.Entities.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.entities\\models\\missionthememodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB51D576-7B7A-451E-BE18-6512D3587984}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\models\\missionthememodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.services\\services\\adminuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|solutionrelative:mission.services\\services\\adminuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B8F97A-5684-4708-95CB-BEED6E69E5E2}|Mission.Repositories\\Mission.Repositories.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.repositories\\repositories\\adminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B8F97A-5684-4708-95CB-BEED6E69E5E2}|Mission.Repositories\\Mission.Repositories.csproj|solutionrelative:mission.repositories\\repositories\\adminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B8F97A-5684-4708-95CB-BEED6E69E5E2}|Mission.Repositories\\Mission.Repositories.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.repositories\\irepositories\\iadminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B8F97A-5684-4708-95CB-BEED6E69E5E2}|Mission.Repositories\\Mission.Repositories.csproj|solutionrelative:mission.repositories\\irepositories\\iadminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1568144-A767-4AF4-ABBB-43A34317A866}|Mission.Api\\Mission.Api.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1568144-A767-4AF4-ABBB-43A34317A866}|Mission.Api\\Mission.Api.csproj|solutionrelative:mission.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.services\\helpers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|solutionrelative:mission.services\\helpers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB51D576-7B7A-451E-BE18-6512D3587984}|Mission.Entities\\Mission.Entities.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.entities\\context\\missiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB51D576-7B7A-451E-BE18-6512D3587984}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\context\\missiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.services\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|solutionrelative:mission.services\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1568144-A767-4AF4-ABBB-43A34317A866}|Mission.Api\\Mission.Api.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1568144-A767-4AF4-ABBB-43A34317A866}|Mission.Api\\Mission.Api.csproj|solutionrelative:mission.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56B8F97A-5684-4708-95CB-BEED6E69E5E2}|Mission.Repositories\\Mission.Repositories.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.repositories\\repositories\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,32 +75,16 @@
       "RelativeMoniker": "D:0:0:{56B8F97A-5684-4708-95CB-BEED6E69E5E2}|Mission.Repositories\\Mission.Repositories.csproj|solutionrelative:mission.repositories\\irepositories\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.services\\services\\adminuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|solutionrelative:mission.services\\services\\adminuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.services\\iservices\\iadminuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|solutionrelative:mission.services\\iservices\\iadminuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56B8F97A-5684-4708-95CB-BEED6E69E5E2}|Mission.Repositories\\Mission.Repositories.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.repositories\\irepositories\\iadminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56B8F97A-5684-4708-95CB-BEED6E69E5E2}|Mission.Repositories\\Mission.Repositories.csproj|solutionrelative:mission.repositories\\irepositories\\iadminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB51D576-7B7A-451E-BE18-6512D3587984}|Mission.Entities\\Mission.Entities.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.entities\\models\\loginuserresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB51D576-7B7A-451E-BE18-6512D3587984}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\models\\loginuserresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56B8F97A-5684-4708-95CB-BEED6E69E5E2}|Mission.Repositories\\Mission.Repositories.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.repositories\\repositories\\adminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56B8F97A-5684-4708-95CB-BEED6E69E5E2}|Mission.Repositories\\Mission.Repositories.csproj|solutionrelative:mission.repositories\\repositories\\adminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1568144-A767-4AF4-ABBB-43A34317A866}|Mission.Api\\Mission.Api.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.api\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1568144-A767-4AF4-ABBB-43A34317A866}|Mission.Api\\Mission.Api.csproj|solutionrelative:mission.api\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1568144-A767-4AF4-ABBB-43A34317A866}|Mission.Api\\Mission.Api.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1568144-A767-4AF4-ABBB-43A34317A866}|Mission.Api\\Mission.Api.csproj|solutionrelative:mission.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB51D576-7B7A-451E-BE18-6512D3587984}|Mission.Entities\\Mission.Entities.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.entities\\models\\responseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,16 +95,8 @@
       "RelativeMoniker": "D:0:0:{DB51D576-7B7A-451E-BE18-6512D3587984}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\models\\registerusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.services\\helpers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|solutionrelative:mission.services\\helpers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB51D576-7B7A-451E-BE18-6512D3587984}|Mission.Entities\\Mission.Entities.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.entities\\models\\loginuserrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB51D576-7B7A-451E-BE18-6512D3587984}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\models\\loginuserrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB51D576-7B7A-451E-BE18-6512D3587984}|Mission.Entities\\Mission.Entities.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.entities\\context\\missiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB51D576-7B7A-451E-BE18-6512D3587984}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\context\\missiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87C103A4-0D9E-4DB7-8DCC-FEE68A4FCE3F}|Mission.Services\\Mission.Services.csproj|c:\\users\\hp\\documents\\sem 7\\tatvasoft si\\tatvasoft-summer-internship\\si_day_3\\mission\\mission.services\\mission.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -108,90 +132,103 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 313,
-          "SelectedChildIndex": 2,
+          "DockedHeight": 341,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LoginRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\Repositories\\LoginRepository.cs",
-              "RelativeDocumentMoniker": "Mission.Repositories\\Repositories\\LoginRepository.cs",
-              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\Repositories\\LoginRepository.cs",
-              "RelativeToolTip": "Mission.Repositories\\Repositories\\LoginRepository.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAzwGEAAAARAAAAAAAAAA==",
+              "Title": "MissionThemeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\Repositories\\MissionThemeRepository.cs",
+              "RelativeDocumentMoniker": "Mission.Repositories\\Repositories\\MissionThemeRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\Repositories\\MissionThemeRepository.cs",
+              "RelativeToolTip": "Mission.Repositories\\Repositories\\MissionThemeRepository.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwDMAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T08:43:37.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\Services\\LoginService.cs",
-              "RelativeDocumentMoniker": "Mission.Services\\Services\\LoginService.cs",
-              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\Services\\LoginService.cs",
-              "RelativeToolTip": "Mission.Services\\Services\\LoginService.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwDAAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T09:32:05.816Z",
+              "WhenOpened": "2025-07-09T08:27:40.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Api\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Mission.Api\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Api\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Mission.Api\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwFgAAAAjAAAAAAAAAA==",
+              "Title": "MissionThemeController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Api\\Controllers\\MissionThemeController.cs",
+              "RelativeDocumentMoniker": "Mission.Api\\Controllers\\MissionThemeController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Api\\Controllers\\MissionThemeController.cs",
+              "RelativeToolTip": "Mission.Api\\Controllers\\MissionThemeController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAiwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T09:39:30.208Z",
+              "WhenOpened": "2025-07-09T09:03:04.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserDetails.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\UserDetails.cs",
-              "RelativeDocumentMoniker": "Mission.Entities\\Models\\UserDetails.cs",
-              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\UserDetails.cs",
-              "RelativeToolTip": "Mission.Entities\\Models\\UserDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MissionThemeService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\Services\\MissionThemeService.cs",
+              "RelativeDocumentMoniker": "Mission.Services\\Services\\MissionThemeService.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\Services\\MissionThemeService.cs",
+              "RelativeToolTip": "Mission.Services\\Services\\MissionThemeService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCMAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T14:09:06.99Z",
+              "WhenOpened": "2025-07-09T08:49:54.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ILoginService.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\IServices\\ILoginService.cs",
-              "RelativeDocumentMoniker": "Mission.Services\\IServices\\ILoginService.cs",
-              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\IServices\\ILoginService.cs",
-              "RelativeToolTip": "Mission.Services\\IServices\\ILoginService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
+              "Title": "IMissionThemeService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\IServices\\IMissionThemeService.cs",
+              "RelativeDocumentMoniker": "Mission.Services\\IServices\\IMissionThemeService.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\IServices\\IMissionThemeService.cs",
+              "RelativeToolTip": "Mission.Services\\IServices\\IMissionThemeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T09:32:21.152Z",
+              "WhenOpened": "2025-07-09T08:50:22.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMissionThemeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\IRepositories\\IMissionThemeRepository.cs",
+              "RelativeDocumentMoniker": "Mission.Repositories\\IRepositories\\IMissionThemeRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\IRepositories\\IMissionThemeRepository.cs",
+              "RelativeToolTip": "Mission.Repositories\\IRepositories\\IMissionThemeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T08:28:03.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ILoginRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\IRepositories\\ILoginRepository.cs",
-              "RelativeDocumentMoniker": "Mission.Repositories\\IRepositories\\ILoginRepository.cs",
-              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\IRepositories\\ILoginRepository.cs",
-              "RelativeToolTip": "Mission.Repositories\\IRepositories\\ILoginRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Title": "MissionTheme.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Entities\\MissionTheme.cs",
+              "RelativeDocumentMoniker": "Mission.Entities\\Entities\\MissionTheme.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Entities\\MissionTheme.cs",
+              "RelativeToolTip": "Mission.Entities\\Entities\\MissionTheme.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T08:43:19.064Z",
+              "WhenOpened": "2025-07-09T08:16:55.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "MissionThemeModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\MissionThemeModel.cs",
+              "RelativeDocumentMoniker": "Mission.Entities\\Models\\MissionThemeModel.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\MissionThemeModel.cs",
+              "RelativeToolTip": "Mission.Entities\\Models\\MissionThemeModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T08:33:44.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AdminUserService.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\Services\\AdminUserService.cs",
               "RelativeDocumentMoniker": "Mission.Services\\Services\\AdminUserService.cs",
@@ -204,20 +241,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IAdminUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\IServices\\IAdminUserService.cs",
-              "RelativeDocumentMoniker": "Mission.Services\\IServices\\IAdminUserService.cs",
-              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\IServices\\IAdminUserService.cs",
-              "RelativeToolTip": "Mission.Services\\IServices\\IAdminUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "AdminUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\Repositories\\AdminUserRepository.cs",
+              "RelativeDocumentMoniker": "Mission.Repositories\\Repositories\\AdminUserRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\Repositories\\AdminUserRepository.cs",
+              "RelativeToolTip": "Mission.Repositories\\Repositories\\AdminUserRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAMwCYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T14:30:54.461Z",
+              "WhenOpened": "2025-07-08T14:06:15.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IAdminUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\IRepositories\\IAdminUserRepository.cs",
               "RelativeDocumentMoniker": "Mission.Repositories\\IRepositories\\IAdminUserRepository.cs",
@@ -230,52 +267,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginUserResponseModel.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\LoginUserResponseModel.cs",
-              "RelativeDocumentMoniker": "Mission.Entities\\Models\\LoginUserResponseModel.cs",
-              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\LoginUserResponseModel.cs",
-              "RelativeToolTip": "Mission.Entities\\Models\\LoginUserResponseModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T04:22:51.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "AdminUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\Repositories\\AdminUserRepository.cs",
-              "RelativeDocumentMoniker": "Mission.Repositories\\Repositories\\AdminUserRepository.cs",
-              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\Repositories\\AdminUserRepository.cs",
-              "RelativeToolTip": "Mission.Repositories\\Repositories\\AdminUserRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAewCYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T14:06:15.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AdminUserController.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Api\\Controllers\\AdminUserController.cs",
-              "RelativeDocumentMoniker": "Mission.Api\\Controllers\\AdminUserController.cs",
-              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Api\\Controllers\\AdminUserController.cs",
-              "RelativeToolTip": "Mission.Api\\Controllers\\AdminUserController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T14:40:44.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Api\\Program.cs",
               "RelativeDocumentMoniker": "Mission.Api\\Program.cs",
               "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Api\\Program.cs",
               "RelativeToolTip": "Mission.Api\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T07:37:00.21Z",
               "EditorCaption": ""
@@ -283,32 +281,57 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "RegisterUserModel.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\RegisterUserModel.cs",
-              "RelativeDocumentMoniker": "Mission.Entities\\Models\\RegisterUserModel.cs",
-              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\RegisterUserModel.cs",
-              "RelativeToolTip": "Mission.Entities\\Models\\RegisterUserModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Api\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Mission.Api\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Api\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Mission.Api\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAzwFgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T13:08:14.193Z",
+              "WhenOpened": "2025-07-07T09:39:30.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\UserDetails.cs",
+              "RelativeDocumentMoniker": "Mission.Entities\\Models\\UserDetails.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\UserDetails.cs",
+              "RelativeToolTip": "Mission.Entities\\Models\\UserDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T14:09:06.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MissionDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\context\\MissionDbContext.cs",
+              "RelativeDocumentMoniker": "Mission.Entities\\context\\MissionDbContext.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\context\\MissionDbContext.cs",
+              "RelativeToolTip": "Mission.Entities\\context\\MissionDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T07:21:52.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "ResponseResult.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\ResponseResult.cs",
-              "RelativeDocumentMoniker": "Mission.Entities\\Models\\ResponseResult.cs",
-              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\ResponseResult.cs",
-              "RelativeToolTip": "Mission.Entities\\Models\\ResponseResult.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "Mission.Services\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\Services\\LoginService.cs",
+              "RelativeToolTip": "Mission.Services\\Services\\LoginService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA3wDAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T04:23:31.879Z",
+              "WhenOpened": "2025-07-07T09:32:05.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\Helpers\\JwtService.cs",
               "RelativeDocumentMoniker": "Mission.Services\\Helpers\\JwtService.cs",
@@ -321,7 +344,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
+              "Title": "LoginRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\Repositories\\LoginRepository.cs",
+              "RelativeDocumentMoniker": "Mission.Repositories\\Repositories\\LoginRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\Repositories\\LoginRepository.cs",
+              "RelativeToolTip": "Mission.Repositories\\Repositories\\LoginRepository.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAzwGEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T08:43:37.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ILoginRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\IRepositories\\ILoginRepository.cs",
+              "RelativeDocumentMoniker": "Mission.Repositories\\IRepositories\\ILoginRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\IRepositories\\ILoginRepository.cs",
+              "RelativeToolTip": "Mission.Repositories\\IRepositories\\ILoginRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T08:43:19.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAdminUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\IServices\\IAdminUserService.cs",
+              "RelativeDocumentMoniker": "Mission.Services\\IServices\\IAdminUserService.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\IServices\\IAdminUserService.cs",
+              "RelativeToolTip": "Mission.Services\\IServices\\IAdminUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T14:30:54.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginUserResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\LoginUserResponseModel.cs",
+              "RelativeDocumentMoniker": "Mission.Entities\\Models\\LoginUserResponseModel.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\LoginUserResponseModel.cs",
+              "RelativeToolTip": "Mission.Entities\\Models\\LoginUserResponseModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T04:22:51.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminUserController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Api\\Controllers\\AdminUserController.cs",
+              "RelativeDocumentMoniker": "Mission.Api\\Controllers\\AdminUserController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Api\\Controllers\\AdminUserController.cs",
+              "RelativeToolTip": "Mission.Api\\Controllers\\AdminUserController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T14:40:44.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterUserModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\RegisterUserModel.cs",
+              "RelativeDocumentMoniker": "Mission.Entities\\Models\\RegisterUserModel.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\RegisterUserModel.cs",
+              "RelativeToolTip": "Mission.Entities\\Models\\RegisterUserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T13:08:14.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ResponseResult.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\ResponseResult.cs",
+              "RelativeDocumentMoniker": "Mission.Entities\\Models\\ResponseResult.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\ResponseResult.cs",
+              "RelativeToolTip": "Mission.Entities\\Models\\ResponseResult.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T04:23:31.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "LoginUserRequestModel.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Models\\LoginUserRequestModel.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\Models\\LoginUserRequestModel.cs",
@@ -333,19 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MissionDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\context\\MissionDbContext.cs",
-              "RelativeDocumentMoniker": "Mission.Entities\\context\\MissionDbContext.cs",
-              "ToolTip": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\context\\MissionDbContext.cs",
-              "RelativeToolTip": "Mission.Entities\\context\\MissionDbContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAiwA4AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T07:21:52.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "Mission.Services.csproj",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Services\\Mission.Services.csproj",
               "RelativeDocumentMoniker": "Mission.Services\\Mission.Services.csproj",
@@ -353,12 +448,11 @@
               "RelativeToolTip": "Mission.Services\\Mission.Services.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-07T09:31:26.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T09:31:26.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "Mission.Repositories.csproj",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Repositories\\Mission.Repositories.csproj",
               "RelativeDocumentMoniker": "Mission.Repositories\\Mission.Repositories.csproj",
@@ -366,12 +460,11 @@
               "RelativeToolTip": "Mission.Repositories\\Mission.Repositories.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-07T08:41:34.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T08:41:34.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "Mission.Entities.csproj",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Mission.Entities.csproj",
               "RelativeDocumentMoniker": "Mission.Entities\\Mission.Entities.csproj",
@@ -379,12 +472,11 @@
               "RelativeToolTip": "Mission.Entities\\Mission.Entities.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-07T07:12:25.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T07:12:25.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.301\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
@@ -396,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "20250707080512_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Migrations\\20250707080512_InitialCreate.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\Migrations\\20250707080512_InitialCreate.cs",
@@ -408,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\Entities\\User.cs",
@@ -420,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "Base.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\sem 7\\tatvasoft SI\\tatvasoft-summer-internship\\SI_day_3\\Mission\\Mission.Entities\\Entities\\Base.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\Entities\\Base.cs",
@@ -433,7 +525,7 @@
           ]
         },
         {
-          "DockedHeight": 87,
+          "DockedHeight": 59,
           "SelectedChildIndex": -1,
           "Children": [
             {

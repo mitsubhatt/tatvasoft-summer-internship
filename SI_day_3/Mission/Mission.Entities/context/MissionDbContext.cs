@@ -12,6 +12,7 @@ namespace Mission.Entities.context
     {
         public MissionDbContext(DbContextOptions<MissionDbContext> options) : base(options) { }
         public DbSet<User> Users { get; set; }
+        public DbSet<MissionTheme> MissionTheme { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
