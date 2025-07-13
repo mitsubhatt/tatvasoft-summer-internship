@@ -22,6 +22,96 @@ namespace Mission.Entities.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("Mission.Entities.Entities.City", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CityName")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("city_name");
+
+                    b.Property<int>("CountryId")
+                        .HasColumnType("integer")
+                        .HasColumnName("country_id");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("City");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CityName = "Ahmedabad",
+                            CountryId = 1
+                        });
+                });
+
+            modelBuilder.Entity("Mission.Entities.Entities.Country", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CountryName")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("country_name");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Country");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CountryName = "India"
+                        });
+                });
+
+            modelBuilder.Entity("Mission.Entities.Entities.MissionSkill", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean");
+
+                    b.Property<DateTime>("ModifiedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("SkillName")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("skill_name");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("status");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MissionSkill");
+                });
+
             modelBuilder.Entity("Mission.Entities.Entities.MissionTheme", b =>
                 {
                     b.Property<int>("Id")
@@ -50,6 +140,94 @@ namespace Mission.Entities.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("MissionTheme");
+                });
+
+            modelBuilder.Entity("Mission.Entities.Entities.Missions", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CityId")
+                        .HasColumnType("integer")
+                        .HasColumnName("city_id");
+
+                    b.Property<int>("CountryId")
+                        .HasColumnType("integer")
+                        .HasColumnName("country_id");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("end_date");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("MissionDescription")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("mission_description");
+
+                    b.Property<string>("MissionImages")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("mission_images");
+
+                    b.Property<string>("MissionOrganisationDetail")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("mission_organisation_detail");
+
+                    b.Property<string>("MissionOrganisationName")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("mission_organisation_name");
+
+                    b.Property<string>("MissionSkillId")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("mission_skill_id");
+
+                    b.Property<int>("MissionThemeId")
+                        .HasColumnType("integer")
+                        .HasColumnName("mission_theme_id");
+
+                    b.Property<string>("MissionTitle")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("mission_title");
+
+                    b.Property<string>("MissionType")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("mission_type");
+
+                    b.Property<DateTime>("ModifiedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("start_date");
+
+                    b.Property<int>("TotalSheets")
+                        .HasColumnType("integer")
+                        .HasColumnName("totalsheets");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CityId");
+
+                    b.HasIndex("CountryId");
+
+                    b.HasIndex("MissionThemeId");
+
+                    b.ToTable("Missions");
                 });
 
             modelBuilder.Entity("Mission.Entities.Entities.User", b =>
@@ -124,6 +302,33 @@ namespace Mission.Entities.Migrations
                             UserImage = "",
                             UserType = "admin"
                         });
+                });
+
+            modelBuilder.Entity("Mission.Entities.Entities.Missions", b =>
+                {
+                    b.HasOne("Mission.Entities.Entities.Country", "Country")
+                        .WithMany()
+                        .HasForeignKey("CityId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Mission.Entities.Entities.City", "City")
+                        .WithMany()
+                        .HasForeignKey("CountryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Mission.Entities.Entities.MissionTheme", "MissionTheme")
+                        .WithMany()
+                        .HasForeignKey("MissionThemeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("City");
+
+                    b.Navigation("Country");
+
+                    b.Navigation("MissionTheme");
                 });
 #pragma warning restore 612, 618
         }

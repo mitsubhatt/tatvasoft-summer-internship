@@ -11,8 +11,6 @@ using Mission.Services.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
-//builder.Services.AddCors();
-
 
 // Add services to the container.
 builder.Services.AddDbContext<MissionDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -60,18 +58,28 @@ builder.Services.AddCors(options =>
     options.AddPolicy("MyPolicy", builder =>
     {
         builder.AllowAnyOrigin()
-        .AllowAnyMethod()
-        .AllowAnyHeader();
+               .AllowAnyMethod()
+               .AllowAnyHeader();
     });
 });
 builder.Services.AddScoped<ILoginRepository, LoginRepository>();
 builder.Services.AddScoped<IAdminUserRepository, AdminUserRepository>();
 builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<IAdminUserService, AdminUserService>();
+
 builder.Services.AddScoped<IMissionThemeRepository, MissionThemeRepository>();
 builder.Services.AddScoped<IMissionThemeService, MissionThemeService>();
-builder.Services.AddScoped<JwtService, JwtService>();
 
+builder.Services.AddScoped<IMissionSkillRepository, MissionSkillRepository>();
+builder.Services.AddScoped<IMissionSkillService, MissionSkillService>();
+
+builder.Services.AddScoped<IMissionRepository, MissionRepository>();
+builder.Services.AddScoped<IMissionService, MissionService>();
+
+builder.Services.AddScoped<ICommonRepository, CommonRepository>();
+builder.Services.AddScoped<ICommonService, CommonService>();
+
+builder.Services.AddScoped<JwtService, JwtService>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -87,7 +95,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseRouting();
 
 app.UseCors("MyPolicy");
