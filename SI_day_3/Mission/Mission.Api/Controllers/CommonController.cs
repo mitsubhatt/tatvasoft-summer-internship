@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Mission.Entities.Models;
+using Mission.Entities.Models.CommonModel;
 using Mission.Services.IServices;
+using System.Net.Http.Headers;
 
 namespace Mission.Api.Controllers
 {
@@ -47,6 +49,44 @@ namespace Mission.Api.Controllers
                 result.Message = ex.Message;
             }
             return result;
+        }
+
+
+        [HttpPost]
+        [Route("UploadImage")]
+        [Authorize]
+        public async Task<IActionResult> UploadImage([FromForm] UploadFileRequestModel upload)
+        {
+            string filePath = "";
+            string fullPath = "";
+            List<string> fileList = new List<string>();
+            var files = Request.Form.Files;
+            if (files != null && files.Count > 0)
+            {
+                foreach (var file in files)
+                {
+                    string fileName = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName.Trim('"');
+                    filePath = Path.Combine("UploadMissionImage", upload.ModuleName);
+                    string fileRootPath = Path.Combine(_hostingEnvironment.WebRootPath, "UploadMissionImage", upload.ModuleName);
+
+                    if (!Directory.Exists(fileRootPath))
+                    {
+                        Directory.CreateDirectory(fileRootPath);
+                    }
+
+                    string name = Path.GetFileNameWithoutExtension(fileName);
+                    string extension = Path.GetExtension(fileName);
+                    string fullFileName = name + "_" + DateTime.Now.ToString("yyyyMMddHHmmss") + extension;
+                    fullPath = Path.Combine(filePath, fullFileName);
+                    string fullRootPath = Path.Combine(fileRootPath, fullFileName);
+                    using (var stream = new FileStream(fullRootPath, FileMode.Create))
+                    {
+                        await file.CopyToAsync(stream);
+                    }
+                    fileList.Add(fullPath);
+                }
+            }
+            return Ok(new { success = true, Data = fileList });
         }
 
     }

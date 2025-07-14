@@ -93,10 +93,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseStaticFiles();
 
 app.UseHttpsRedirection();
 app.UseRouting();
-
 app.UseCors("MyPolicy");
 
 app.UseAuthorization();

@@ -1,11 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Hosting.Internal;
+using Mission.Entities.Entities;
 using Mission.Entities.Models;
-using Mission.Entities.Models.CommonModel;
 using Mission.Entities.Models.MissionsModels;
 using Mission.Services.IServices;
-using System.Net.Http.Headers;
 
 namespace Mission.Api.Controllers
 {
@@ -35,7 +33,7 @@ namespace Mission.Api.Controllers
         }
 
         [HttpGet]
-        [Route("MissionDetailsById/{id}")]
+        [Route("MissionDetailById/{id}")]
         public ResponseResult MissionDetailsById(int id)
         {
             try
@@ -89,39 +87,93 @@ namespace Mission.Api.Controllers
             return result;
         }
 
-        [HttpPost]
-        [Route("UploadImage")]
-        public async Task<IActionResult> UploadImage([FromForm] UploadFileRequestModel upload)
+
+
+        [HttpGet]
+        [Route("GetMissionThemeList")]
+        [Authorize]
+        public ResponseResult GetMissionThemeList()
         {
-            string filePath = "";
-            string fullPath = "";
-            var files = Request.Form.Files;
-            if (files != null && files.Count > 0)
+            try
             {
-                foreach (var file in files)
-                {
-                    string fileName = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName.Trim('"');
-                    filePath = Path.Combine("UploadMissionImage", upload.ModuleName);
-                    string fileRootPath = Path.Combine(_hostingEnvironment.WebRootPath, "UploadMissionImage", upload.ModuleName);
-
-                    if (!Directory.Exists(fileRootPath))
-                    {
-                        Directory.CreateDirectory(fileRootPath);
-                    }
-
-                    string name = Path.GetFileNameWithoutExtension(fileName);
-                    string extension = Path.GetExtension(fileName);
-                    string fullFileName = name + "_" + DateTime.Now.ToString("yyyyMMddHHmmss") + extension;
-                    fullPath = Path.Combine(filePath, fullFileName);
-                    string fullRootPath = Path.Combine(fileRootPath, fullFileName);
-                    using (var stream = new FileStream(fullRootPath, FileMode.Create))
-                    {
-                        await file.CopyToAsync(stream);
-                    }
-                }
+                result.Data = _missionService.GetMissionThemeList();
+                result.Result = ResponseStatus.Success;
             }
-            return Ok(new { success = true, Data = fullPath });
+            catch (Exception ex)
+            {
+                result.Result = ResponseStatus.Error;
+                result.Message = ex.Message;
+            }
+            return result;
+        }
+        [HttpGet]
+        [Route("GetMissionSkillList")]
+        [Authorize]
+        public ResponseResult GetMissionSkillList()
+        {
+            try
+            {
+                result.Data = _missionService.GetMissionSkillList();
+                result.Result = ResponseStatus.Success;
+            }
+            catch (Exception ex)
+            {
+                result.Result = ResponseStatus.Error;
+                result.Message = ex.Message;
+            }
+            return result;
+        }
+
+        [HttpPost]
+        [Route("MissionApplicationApprove")]
+        public ResponseResult MissionApplicationApprove(MissionApplication application)
+        {
+            try
+            {
+                result.Data = _missionService.ApproveMission(application.Id);
+                result.Result = ResponseStatus.Success;
+            }
+            catch (Exception ex)
+            {
+                result.Result = ResponseStatus.Error;
+                result.Message = ex.Message;
+            }
+            return result;
+        }
+
+        [HttpGet]
+        [Route("MissionApplicationList")]
+        public ResponseResult MissionApplicationList()
+        {
+            try
+            {
+                result.Data = _missionService.MissionApplicationList();
+                result.Result = ResponseStatus.Success;
+            }
+            catch (Exception ex)
+            {
+                result.Result = ResponseStatus.Error;
+                result.Message = ex.Message;
+            }
+            return result;
+        }
+
+
+        [HttpPost]
+        [Route("MissionApplicationDelete")]
+        public ResponseResult MissionApplicationDelete(MissionApplication application)
+        {
+            try
+            {
+                result.Data = _missionService.DeleteMissionApplication(application.Id);
+                result.Result = ResponseStatus.Success;
+            }
+            catch (Exception ex)
+            {
+                result.Result = ResponseStatus.Error;
+                result.Message = ex.Message;
+            }
+            return result;
         }
     }
 }
-

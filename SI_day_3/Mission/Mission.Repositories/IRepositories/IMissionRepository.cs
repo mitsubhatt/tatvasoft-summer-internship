@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Mission.Entities.Models.CommonModel;
 using Mission.Entities.Models.MissionsModels;
 
 namespace Mission.Repositories.IRepositories
@@ -16,6 +16,12 @@ namespace Mission.Repositories.IRepositories
         string DeleteMissionById(int missionId);
 
         List<MissionResponseModel> ClientMissionList(int userId);
+        List<DropDownResponseModel> GetMissionThemeList();
+        List<DropDownResponseModel> GetMissionSkillList();
+
+        string ApplyMission(ApplyMissionRequestModel request);
+        string ApproveMission(int id);
+        string DeleteMissionApplication(int id);
+        List<MissionApplicationResponseModel> MissionApplicationList();
     }
 }
-

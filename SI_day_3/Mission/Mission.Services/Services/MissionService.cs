@@ -1,4 +1,5 @@
-﻿using Mission.Entities.Models.MissionsModels;
+﻿using Mission.Entities.Models.CommonModel;
+using Mission.Entities.Models.MissionsModels;
 using Mission.Repositories.IRepositories;
 using Mission.Services.IServices;
 
@@ -7,6 +8,16 @@ namespace Mission.Services.Services
     public class MissionService(IMissionRepository missionRepository) : IMissionService
     {
         private readonly IMissionRepository _missionRepository = missionRepository;
+
+        public List<DropDownResponseModel> GetMissionThemeList()
+        {
+            return _missionRepository.GetMissionThemeList();
+        }
+
+        public List<DropDownResponseModel> GetMissionSkillList()
+        {
+            return _missionRepository.GetMissionSkillList();
+        }
 
         public List<MissionResponseModel> GetMissionList()
         {
@@ -34,6 +45,27 @@ namespace Mission.Services.Services
         {
             return _missionRepository.ClientMissionList(userId);
         }
+
+        public string ApplyMission(ApplyMissionRequestModel request)
+        {
+            return _missionRepository.ApplyMission(request);
+        }
+
+        public string ApproveMission(int id)
+        {
+            return _missionRepository.ApproveMission(id);
+        }
+
+        public string DeleteMissionApplication(int id)
+        {
+            return _missionRepository.DeleteMissionApplication(id);
+        }
+
+        public List<MissionApplicationResponseModel> MissionApplicationList()
+        {
+            return _missionRepository.MissionApplicationList();
+        }
     }
 }
+
 

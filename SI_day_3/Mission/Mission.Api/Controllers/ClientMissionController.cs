@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Mission.Entities.Entities;
 using Mission.Entities.Models;
+using Mission.Entities.Models.MissionsModels;
 using Mission.Services.IServices;
 
 namespace Mission.Api.Controllers
@@ -27,6 +29,22 @@ namespace Mission.Api.Controllers
             }
             return result;
         }
+
+        [HttpPost]
+        [Route("ApplyMission")]
+        public ResponseResult ApplyMission(ApplyMissionRequestModel request)
+        {
+            try
+            {
+                result.Data = _missionService.ApplyMission(request);
+                result.Result = ResponseStatus.Success;
+            }
+            catch (Exception ex)
+            {
+                result.Result = ResponseStatus.Error;
+                result.Message = ex.Message;
+            }
+            return result;
+        }
     }
 }
-

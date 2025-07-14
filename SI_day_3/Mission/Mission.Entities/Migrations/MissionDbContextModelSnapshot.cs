@@ -79,6 +79,53 @@ namespace Mission.Entities.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Mission.Entities.Entities.MissionApplication", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("AppliedDate")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("applied_date");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean");
+
+                    b.Property<int>("MissionId")
+                        .HasColumnType("integer")
+                        .HasColumnName("mission_id");
+
+                    b.Property<DateTime>("ModifiedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("Sheet")
+                        .HasColumnType("integer")
+                        .HasColumnName("sheet");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("boolean")
+                        .HasColumnName("status");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MissionId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("MissionApplication");
+                });
+
             modelBuilder.Entity("Mission.Entities.Entities.MissionSkill", b =>
                 {
                     b.Property<int>("Id")
@@ -163,16 +210,26 @@ namespace Mission.Entities.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<DateTime>("EndDate")
-                        .HasColumnType("timestamp with time zone")
+                        .HasColumnType("Date")
                         .HasColumnName("end_date");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("boolean");
 
+                    b.Property<string>("MissionAvailability")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("mission_availability");
+
                     b.Property<string>("MissionDescription")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("mission_description");
+
+                    b.Property<string>("MissionDocuments")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("mission_documents");
 
                     b.Property<string>("MissionImages")
                         .IsRequired()
@@ -208,16 +265,25 @@ namespace Mission.Entities.Migrations
                         .HasColumnType("text")
                         .HasColumnName("mission_type");
 
+                    b.Property<string>("MissionVideoUrl")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("mission_video_url");
+
                     b.Property<DateTime>("ModifiedDate")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<DateTime?>("RegistrationDeadLine")
+                        .HasColumnType("Date")
+                        .HasColumnName("registration_deadline");
+
                     b.Property<DateTime>("StartDate")
-                        .HasColumnType("timestamp with time zone")
+                        .HasColumnType("Date")
                         .HasColumnName("start_date");
 
-                    b.Property<int>("TotalSheets")
+                    b.Property<int?>("TotalSheets")
                         .HasColumnType("integer")
-                        .HasColumnName("totalsheets");
+                        .HasColumnName("total_sheets");
 
                     b.HasKey("Id");
 
@@ -304,15 +370,34 @@ namespace Mission.Entities.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Mission.Entities.Entities.MissionApplication", b =>
+                {
+                    b.HasOne("Mission.Entities.Entities.Missions", "Mission")
+                        .WithMany()
+                        .HasForeignKey("MissionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Mission.Entities.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Mission");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Mission.Entities.Entities.Missions", b =>
                 {
-                    b.HasOne("Mission.Entities.Entities.Country", "Country")
+                    b.HasOne("Mission.Entities.Entities.City", "City")
                         .WithMany()
                         .HasForeignKey("CityId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Mission.Entities.Entities.City", "City")
+                    b.HasOne("Mission.Entities.Entities.Country", "Country")
                         .WithMany()
                         .HasForeignKey("CountryId")
                         .OnDelete(DeleteBehavior.Cascade)

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Mission.Entities.Models.MissionsModels
+﻿namespace Mission.Entities.Models.MissionsModels
 {
     public class MissionResponseModel
     {
@@ -28,7 +22,12 @@ namespace Mission.Entities.Models.MissionsModels
         public int TotalSheets { get; set; }
         public int MissionThemeId { get; set; }
         public string MissionThemeName { get; set; }
+        public string MissionSkillName { get; set; }
         public string MissionSkillId { get; set; }
         public string MissionImages { get; set; }
+
+        public string MissionApplyStatus { get; set; }
+
+        public string MissionApproveStatus { get; set; }
     }
 }
